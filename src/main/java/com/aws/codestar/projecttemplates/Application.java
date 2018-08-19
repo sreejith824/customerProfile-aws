@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import com.tcs.mmisamples.customerprofile.CustomerProfileApplication;
 
 /** Simple class to start up the application.
  *
@@ -12,7 +14,8 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  *  @EnableAutoConfiguration
  *  @ComponentScan
  */
-@SpringBootApplication
+//@EnableJpaRepositories
+//@SpringBootApplication
 public class Application extends SpringBootServletInitializer {
 
     @Override
@@ -21,7 +24,7 @@ public class Application extends SpringBootServletInitializer {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(CustomerProfileApplication.class, args);
     }
 
 }
