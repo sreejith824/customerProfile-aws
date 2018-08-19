@@ -13,7 +13,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @EnableJpaRepositories
 @SpringBootApplication
-public class CustomerProfileApplication {
+public class CustomerProfileApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(CustomerProfileApplication.class, args);
