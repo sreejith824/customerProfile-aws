@@ -1,10 +1,9 @@
-package com.tcs.mmisamples.customerprofile.web;
+package com.tcs.aws.customerprofile.web;
 
-import com.tcs.mmisamples.customerprofile.domain.CustomerProfile;
-import com.tcs.mmisamples.customerprofile.service.CustomerProfileService;
+import com.tcs.aws.customerprofile.domain.CustomerProfile;
+import com.tcs.aws.customerprofile.service.CustomerProfileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.web.bind.annotation.*;
 
 /**

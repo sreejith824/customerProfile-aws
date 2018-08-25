@@ -1,4 +1,4 @@
-package com.tcs.mmisamples.customerprofile.web;
+package com.tcs.aws.customerprofile.web;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

@@ -1,6 +1,6 @@
-package com.tcs.mmisamples.customerprofile.service;
+package com.tcs.aws.customerprofile.service;
 
-import com.tcs.mmisamples.customerprofile.domain.CustomerProfile;
+import com.tcs.aws.customerprofile.domain.CustomerProfile;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
