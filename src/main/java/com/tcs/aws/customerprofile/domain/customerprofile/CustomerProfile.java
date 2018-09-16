@@ -1,4 +1,4 @@
-package com.tcs.aws.customerprofile.domain;
+package com.tcs.aws.customerprofile.domain.customerprofile;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

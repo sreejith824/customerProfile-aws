@@ -1,7 +1,7 @@
 package com.tcs.aws.customerprofile.service.impl;
 
 import com.tcs.aws.customerprofile.dao.CustomerProfilePaginationRepository;
-import com.tcs.aws.customerprofile.domain.CustomerProfile;
+import com.tcs.aws.customerprofile.domain.customerprofile.CustomerProfile;
 import com.tcs.aws.customerprofile.service.CustomerProfileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
